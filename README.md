@@ -26,4 +26,25 @@ For more details, please check the source codes in mat/generatorGUI.m
 
 ## Hardware Implementations
 <br> <br> 
-please wait for further updates
+The testbench results have shown that our hardware modules have correct logic function.
+<br>
+
+### The encoder module
+<div align=center><img width="1000" src="https://github.com/donlv1997/ECC_CRC/raw/master/img/CRC16_serial_input0xaaaa.png"/></div>
+
+Let's take CRC_16_serial for example（x^16+x^15+x^2+1）, as we can clearly see, the serial encoder circuits can generate the correct crc code in 16 clock cycles （input 0xaaaa, output should be fff6). 
+
+
+While for parallel implementation approach, this process can be done in one cycle:
+
+<br> 
+<img align=center src="https://github.com/donlv1997/ECC_CRC/raw/master/img/CRC16_D16_input0xaaaa.png" width="1000"/>
+</div>
+
+### The decoder and corrector
+
+Take input data 0xffff for example, the crc code should be 800d. The input data and crc code should be combined to form a dataword 0xffff800d, and together taken as input to the decoder&corrector circuits(parallel implementation). Assuming that a one-bit error occurred during storage or transmission process, in which case the dataword could be 0xfffe800d as the decoder&corrector input. The results 0xffff800d demonstrates that this CRC16_Decoder module can handle 1 bit error.
+
+<div align=center><img width="300" src="https://github.com/donlv1997/ECC_CRC/raw/master/img/CRC16_D16_docoder%26corrector.png"/></div>
+
+Generally speaking, the decoder can discover any multiple bits error(the discovery rate can exceed 99%) while can only correct 1 bit error.
