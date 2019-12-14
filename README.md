@@ -45,6 +45,17 @@ While for parallel implementation approach, this process can be done in one cycl
 
 Take input data 0xffff for example, the crc code should be 800d. The input data and crc code should be combined to form a dataword 0xffff800d, and together taken as input to the decoder&corrector circuits(parallel implementation). Assuming that a one-bit error occurred during storage or transmission process, in which case the dataword could be 0xfffe800d as the decoder&corrector input. The results 0xffff800d demonstrates that this CRC16_Decoder module can handle 1 bit error.
 
-<div align=center><img width="300" src="https://github.com/donlv1997/ECC_CRC/raw/master/img/CRC16_D16_docoder%26corrector.png"/></div>
+
+<div align=center>
+	<img src="https://github.com/donlv1997/ECC_CRC/raw/master/img/CRC16_D16_docoder%26corrector.png" width="300"> 
+</div>
 
 Generally speaking, the decoder can discover any multiple bits error(the discovery rate can exceed 99%) while can only correct 1 bit error.
+
+## How to use
+<div align=center><img width="1000" src="https://github.com/donlv1997/ECC-Verilog-HDL-AutoGenerator/raw/master/img/%E7%AE%97%E6%B3%95%E5%8A%9F%E8%83%BD%E6%A6%82%E8%A7%88%E5%9B%BE.png"/></div>
+
+As shown in the figure above, click the menu '自动生成硬件代码'. Then click '生成编码模块' for encoder auto-generation, click '生成解码模块' for decoder&corrector auto-generation.
+
+
+Notice that there are 3 input box below, they represents generation polynomial(in hex/bin/dec form), input data width, crc width respectively, please make sure they are modifed according to your needs.
