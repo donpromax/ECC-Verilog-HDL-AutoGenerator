@@ -1,6 +1,6 @@
-# ECC_CRC
+# ECC Circuit(Verilog HDL Code) Auto-generator
 <br>
-a cyclic redundancy check(one kind of Error Correcting Code) software and hardware implementation.
+a cyclic redundancy check(CRC, one kind of Error Correcting Code) software and hardware implementation. Hardware description language can be automatically generated for any specified CRC generator polynomial.
 <br>
 一个循环校验码（一种ecc错误校验码）的软件和硬件实现
 <br>
