@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.4a/examples
+vCRC16_D16
+!s110 1576247688
+!i10b 1
+!s100 27hZIz6JJIhijc]^JihLz3
+IDQ`03l;1[meYf^k;Pm:JF1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1576221408
+8C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_D16_parallel.v
+FC:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_D16_parallel.v
+L0 2
+Z2 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1576247688.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_D16_parallel.v|
+!s90 -reportprogress|300|-work|ecc|C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_D16_parallel.v|
+!s101 -O0
+!i113 1
+Z3 o-work ecc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@c@r@c16_@d16
+vCRC16_D16_tb
+!s110 1576247691
+!i10b 1
+!s100 9RS>cOOLb7SGMgg^ojj7Q1
+I66La4JT=Hb5HhK6B];9W>2
+R1
+R0
+w1576226286
+8C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_D16_tb.v
+FC:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_D16_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1576247691.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_D16_tb.v|
+!s90 -reportprogress|300|-work|ecc|C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_D16_tb.v|
+!s101 -O0
+!i113 1
+R3
+n@c@r@c16_@d16_tb
+vCRC16_decoder
+!s110 1576249359
+!i10b 1
+!s100 c<cY0P0c3ea<<l4CMFFH21
+I^X6lIoAD1d:F8;l@TM9ah2
+R1
+R0
+w1576249332
+8C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_decoder.v
+FC:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_decoder.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1576249359.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_decoder.v|
+!s90 -reportprogress|300|-work|ecc|C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_decoder.v|
+!s101 -O0
+!i113 1
+R3
+n@c@r@c16_decoder
+vCRC16_decoder_tb
+!s110 1576249362
+!i10b 1
+!s100 44Qo3Y;0eo;Azbf5B:T0i0
+I3CQ>jK4=];EWOCT]NR9M=2
+R1
+R0
+w1576249001
+8C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_decoder_tb.v
+FC:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_decoder_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1576249362.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_decoder_tb.v|
+!s90 -reportprogress|300|-work|ecc|C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_decoder_tb.v|
+!s101 -O0
+!i113 1
+R3
+n@c@r@c16_decoder_tb
+vCRC16_serial
+!s110 1576247700
+!i10b 1
+!s100 D6`4gd@1oV4IoigHQA;5N2
+IQPG2h7G^1K`76HZEf5jmD2
+R1
+R0
+w1576225198
+8C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_serial.v
+FC:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_serial.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1576247700.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_serial.v|
+!s90 -reportprogress|300|-work|ecc|C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_serial.v|
+!s101 -O0
+!i113 1
+R3
+n@c@r@c16_serial
+vCRC16_serial_tb
+!s110 1576247703
+!i10b 1
+!s100 P8oE90KNidfn0@>e0KL?J1
+I@7`WmlA99:`N1?O>0;l3:1
+R1
+R0
+w1576224179
+8C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_serial_tb.v
+FC:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_serial_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1576247703.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_serial_tb.v|
+!s90 -reportprogress|300|-work|ecc|C:/Modeltech_pe_edu_10.4a/examples/ecc/src/CRC16_serial_tb.v|
+!s101 -O0
+!i113 1
+R3
+n@c@r@c16_serial_tb
