@@ -4,7 +4,7 @@ a cyclic redundancy check(one kind of Error Correcting Code) software and hardwa
 <br>
 一个循环校验码（一种ecc错误校验码）的软件和硬件实现
 <br>
-<br>
+
 ## Software Implementations
 <br> <br> 
 For the powerful matrix computing abilities, and gui features, I choose MATLAB for the software and algorithms implementation platform. The functions can be summarized as follows:
