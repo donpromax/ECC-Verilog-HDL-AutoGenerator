@@ -1,6 +1,7 @@
 # ECC_CRC
 <br>
 a cyclic redundancy check(one kind of Error Correcting Code) software and hardware implementation.
+<br>
 一个循环校验码（一种ecc错误校验码）的软件和硬件实现
 <br>
 <br>
@@ -21,3 +22,5 @@ mat文件夹下，generatorGUI.m ，目前已经实现的功能和算法：
 <br> <br> 
 
 ## Hardware Implementations
+<br> <br> 
+please wait for further updates
