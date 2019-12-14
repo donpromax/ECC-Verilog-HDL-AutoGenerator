@@ -12,6 +12,8 @@ For the powerful matrix computing abilities, and gui features, I choose MATLAB f
 * Calculating the data matrix and crc matrix used in the encoding circuits. Generating polynomial(in hex form), data width, and crc width are required as inputs. 
 * Calculating the error-location map used in the decoder-corrector circuits. Inputs requirements are the same.
 * Automatically generating the verilog HDL codes for encoder and decoder function modules.
+
+For more details, please check the source codes in mat/generatorGUI.m 
 <br> 
 <br> 
 由于MATLAB的高效矩阵运算性能，算法部分由MATLAB实现。mat文件夹下，generatorGUI.m ，目前已经实现的功能和算法：
